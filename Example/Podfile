@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AmrConverter_Example' do
+  pod 'AmrConverter', :path => '../'
+
+  target 'AmrConverter_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
