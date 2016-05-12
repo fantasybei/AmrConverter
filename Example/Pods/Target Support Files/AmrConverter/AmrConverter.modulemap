@@ -1,0 +1,6 @@
+framework module AmrConverter {
+  umbrella header "AmrConverter-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CC7133487634B277128EFF0C9A4E5A9 /* AmrConverter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 284ABB327BE6816CFAAFF93D92078CF5 /* AmrConverter-dummy.m */; };
+		3962BA7DEA5D5998F9DBCE5D4335B67C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		579CA5EB6DE61E7E66C51FCCD36DE14B /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = D22829CCD26A6E6F3CA6D67AE13FD135 /* ReplaceMe.m */; };
+		604C020532117C91FF6ED71DBDA29B9E /* Pods-AmrConverter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAD3EBBFD85E01EFEB31F729413BE55 /* Pods-AmrConverter_Example-dummy.m */; };
+		787D77EEC2108FE2B96D57784D393F26 /* Pods-AmrConverter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29F9E67DDCF174D6B2B7629F84BE819E /* Pods-AmrConverter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C493AB3A14240FE4C62C7310BE518D1 /* Pods-AmrConverter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 642BE333B417865C9F4ED6CF72C6D694 /* Pods-AmrConverter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A789371594142DF27405141F5A58E627 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		D8A1E46A371E08829E089D64A63389D1 /* Pods-AmrConverter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2CD789F8778F133CE9246FA717710E /* Pods-AmrConverter_Tests-dummy.m */; };
+		DF0A004672AF008552FEC45F7146ACF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		FB24CA4D80CC4EFA954760B10949E658 /* AmrConverter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 247F507CFC5591BCE59C55FB9E16D173 /* AmrConverter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CF75A1946BAAB14DB08D0B6C60273CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4403A81740377237091B75F438262E1F;
+			remoteInfo = AmrConverter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		083B5E2035CD87D4B0327B9885195581 /* Pods-AmrConverter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AmrConverter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0A49EB46ECE3998A09D334EF823C440D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CAD3EBBFD85E01EFEB31F729413BE55 /* Pods-AmrConverter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AmrConverter_Example-dummy.m"; sourceTree = "<group>"; };
+		247F507CFC5591BCE59C55FB9E16D173 /* AmrConverter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AmrConverter-umbrella.h"; sourceTree = "<group>"; };
+		284ABB327BE6816CFAAFF93D92078CF5 /* AmrConverter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AmrConverter-dummy.m"; sourceTree = "<group>"; };
+		29F9E67DDCF174D6B2B7629F84BE819E /* Pods-AmrConverter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AmrConverter_Example-umbrella.h"; sourceTree = "<group>"; };
+		2BA58FF7AC2E2D8FA13C33D7DA77F5B5 /* Pods-AmrConverter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AmrConverter_Example.modulemap"; sourceTree = "<group>"; };
+		3A3B9E9BEE73C68933DC23C6C36FB3B4 /* Pods-AmrConverter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AmrConverter_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3B6ED273DC98BBDC6FE093F030D3C322 /* Pods-AmrConverter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AmrConverter_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4B99FAC263FCD8A40B6971E07FD2BE58 /* Pods-AmrConverter_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AmrConverter_Tests-resources.sh"; sourceTree = "<group>"; };
+		4C2CD789F8778F133CE9246FA717710E /* Pods-AmrConverter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AmrConverter_Tests-dummy.m"; sourceTree = "<group>"; };
+		507C7A24E5F831832E8DFFF7E18A03A1 /* Pods-AmrConverter_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AmrConverter_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		51D104E1849953911644F94876E7E290 /* Pods-AmrConverter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AmrConverter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		577C4304D32633ACE6C0CA307FAE9DFA /* Pods-AmrConverter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AmrConverter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5811ACFF5D8437CFE974B36757C49762 /* AmrConverter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AmrConverter.modulemap; sourceTree = "<group>"; };
+		642BE333B417865C9F4ED6CF72C6D694 /* Pods-AmrConverter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AmrConverter_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6CF0F58F86B264066B19A08813E017F6 /* Pods_AmrConverter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmrConverter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		735E48B2BA8939AF0D3C8704786A9C51 /* AmrConverter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AmrConverter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73834E47356D5CB245E6DD7458817A5E /* AmrConverter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AmrConverter.xcconfig; sourceTree = "<group>"; };
+		7A32B01F1E878721D0FAE138C4B766FA /* Pods-AmrConverter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AmrConverter_Example-frameworks.sh"; sourceTree = "<group>"; };
+		85DBDB300044969D235C3F0978D39AAD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A100A32091DE3D62D75B14F944C89600 /* Pods-AmrConverter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AmrConverter_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C3A32F59BCEC80B9C9B4B5316CF22FB2 /* Pods_AmrConverter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmrConverter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D22829CCD26A6E6F3CA6D67AE13FD135 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		E9BD8B5E51698A8A71554A3446C7A14E /* Pods-AmrConverter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AmrConverter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ED7698DC6F783D11BD2ABB7275ACC791 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEEAC5DC47E1CADB225DA87DC6574B5D /* AmrConverter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AmrConverter-prefix.pch"; sourceTree = "<group>"; };
+		F34F478C58F4C1E4A4E3703B0E70B00E /* Pods-AmrConverter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AmrConverter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6CE36A26D1AE7E336428EEA0CE667A2 /* Pods-AmrConverter_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AmrConverter_Example-resources.sh"; sourceTree = "<group>"; };
+		F71506340CA291CAF1E89148F4B0B44B /* Pods-AmrConverter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AmrConverter_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16543156A878DF5238D78D76CD23CB71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF0A004672AF008552FEC45F7146ACF3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDE7B6D89FD902B425A60415A312E379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A789371594142DF27405141F5A58E627 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9BDFCCDFE580D48DE246E66F8252A4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3962BA7DEA5D5998F9DBCE5D4335B67C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07438D37104599DD34E633D2B0F7E8AF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5811ACFF5D8437CFE974B36757C49762 /* AmrConverter.modulemap */,
+				73834E47356D5CB245E6DD7458817A5E /* AmrConverter.xcconfig */,
+				284ABB327BE6816CFAAFF93D92078CF5 /* AmrConverter-dummy.m */,
+				EEEAC5DC47E1CADB225DA87DC6574B5D /* AmrConverter-prefix.pch */,
+				247F507CFC5591BCE59C55FB9E16D173 /* AmrConverter-umbrella.h */,
+				0A49EB46ECE3998A09D334EF823C440D /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AmrConverter";
+			sourceTree = "<group>";
+		};
+		1E989615D543864E59BF58B23585EA55 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C7E835D967090BDE17A6923AB5A4CAF /* AmrConverter */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3925437A0D5EF2DFB34F54E58C22DAB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				735E48B2BA8939AF0D3C8704786A9C51 /* AmrConverter.framework */,
+				C3A32F59BCEC80B9C9B4B5316CF22FB2 /* Pods_AmrConverter_Example.framework */,
+				6CF0F58F86B264066B19A08813E017F6 /* Pods_AmrConverter_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4C7E835D967090BDE17A6923AB5A4CAF /* AmrConverter */ = {
+			isa = PBXGroup;
+			children = (
+				C7860CCF3EED695C7E4EF95C49FEFD27 /* AmrConverter */,
+				07438D37104599DD34E633D2B0F7E8AF /* Support Files */,
+			);
+			name = AmrConverter;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		53F6FAA400EFE4F8DA81EBE8AFFB874E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D22829CCD26A6E6F3CA6D67AE13FD135 /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				1E989615D543864E59BF58B23585EA55 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				3925437A0D5EF2DFB34F54E58C22DAB9 /* Products */,
+				EAECE86860551775BCCE464D5D3590B7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7860CCF3EED695C7E4EF95C49FEFD27 /* AmrConverter */ = {
+			isa = PBXGroup;
+			children = (
+				53F6FAA400EFE4F8DA81EBE8AFFB874E /* Classes */,
+			);
+			path = AmrConverter;
+			sourceTree = "<group>";
+		};
+		EAECE86860551775BCCE464D5D3590B7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE1EA064912204CA7D849C188EC27AC5 /* Pods-AmrConverter_Example */,
+				FFB0EC000F1E3E5410960350278EEC70 /* Pods-AmrConverter_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EE1EA064912204CA7D849C188EC27AC5 /* Pods-AmrConverter_Example */ = {
+			isa = PBXGroup;
+			children = (
+				85DBDB300044969D235C3F0978D39AAD /* Info.plist */,
+				2BA58FF7AC2E2D8FA13C33D7DA77F5B5 /* Pods-AmrConverter_Example.modulemap */,
+				E9BD8B5E51698A8A71554A3446C7A14E /* Pods-AmrConverter_Example-acknowledgements.markdown */,
+				083B5E2035CD87D4B0327B9885195581 /* Pods-AmrConverter_Example-acknowledgements.plist */,
+				1CAD3EBBFD85E01EFEB31F729413BE55 /* Pods-AmrConverter_Example-dummy.m */,
+				7A32B01F1E878721D0FAE138C4B766FA /* Pods-AmrConverter_Example-frameworks.sh */,
+				F6CE36A26D1AE7E336428EEA0CE667A2 /* Pods-AmrConverter_Example-resources.sh */,
+				29F9E67DDCF174D6B2B7629F84BE819E /* Pods-AmrConverter_Example-umbrella.h */,
+				3A3B9E9BEE73C68933DC23C6C36FB3B4 /* Pods-AmrConverter_Example.debug.xcconfig */,
+				3B6ED273DC98BBDC6FE093F030D3C322 /* Pods-AmrConverter_Example.release.xcconfig */,
+			);
+			name = "Pods-AmrConverter_Example";
+			path = "Target Support Files/Pods-AmrConverter_Example";
+			sourceTree = "<group>";
+		};
+		FFB0EC000F1E3E5410960350278EEC70 /* Pods-AmrConverter_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ED7698DC6F783D11BD2ABB7275ACC791 /* Info.plist */,
+				F71506340CA291CAF1E89148F4B0B44B /* Pods-AmrConverter_Tests.modulemap */,
+				51D104E1849953911644F94876E7E290 /* Pods-AmrConverter_Tests-acknowledgements.markdown */,
+				577C4304D32633ACE6C0CA307FAE9DFA /* Pods-AmrConverter_Tests-acknowledgements.plist */,
+				4C2CD789F8778F133CE9246FA717710E /* Pods-AmrConverter_Tests-dummy.m */,
+				507C7A24E5F831832E8DFFF7E18A03A1 /* Pods-AmrConverter_Tests-frameworks.sh */,
+				4B99FAC263FCD8A40B6971E07FD2BE58 /* Pods-AmrConverter_Tests-resources.sh */,
+				642BE333B417865C9F4ED6CF72C6D694 /* Pods-AmrConverter_Tests-umbrella.h */,
+				F34F478C58F4C1E4A4E3703B0E70B00E /* Pods-AmrConverter_Tests.debug.xcconfig */,
+				A100A32091DE3D62D75B14F944C89600 /* Pods-AmrConverter_Tests.release.xcconfig */,
+			);
+			name = "Pods-AmrConverter_Tests";
+			path = "Target Support Files/Pods-AmrConverter_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		631AF45B588CF3FE6DC357BCC3A4509C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB24CA4D80CC4EFA954760B10949E658 /* AmrConverter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91B7290D56E9A17737C125B07C958DE0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C493AB3A14240FE4C62C7310BE518D1 /* Pods-AmrConverter_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2B2EEEEB09BF8359B841F16A86F59D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				787D77EEC2108FE2B96D57784D393F26 /* Pods-AmrConverter_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4403A81740377237091B75F438262E1F /* AmrConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A0EB1E7A6788F295D3A358309730ED1 /* Build configuration list for PBXNativeTarget "AmrConverter" */;
+			buildPhases = (
+				1E54CA43AD52A7936023E5C143169177 /* Sources */,
+				BDE7B6D89FD902B425A60415A312E379 /* Frameworks */,
+				631AF45B588CF3FE6DC357BCC3A4509C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmrConverter;
+			productName = AmrConverter;
+			productReference = 735E48B2BA8939AF0D3C8704786A9C51 /* AmrConverter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B860B2E22CB27C5B697A4BD70C1DEE4 /* Pods-AmrConverter_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15059047EEE863F08BDF2C732D09F5FB /* Build configuration list for PBXNativeTarget "Pods-AmrConverter_Example" */;
+			buildPhases = (
+				3BD2912325E4D21AC557E61BD58DC31E /* Sources */,
+				16543156A878DF5238D78D76CD23CB71 /* Frameworks */,
+				C2B2EEEEB09BF8359B841F16A86F59D4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EFCBA87A22059749822E32803FF5166 /* PBXTargetDependency */,
+			);
+			name = "Pods-AmrConverter_Example";
+			productName = "Pods-AmrConverter_Example";
+			productReference = C3A32F59BCEC80B9C9B4B5316CF22FB2 /* Pods_AmrConverter_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D7644E521E2FA704FB4A9814DCB9B3B4 /* Pods-AmrConverter_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A976BF8B97B1169688D9A353AB3578D7 /* Build configuration list for PBXNativeTarget "Pods-AmrConverter_Tests" */;
+			buildPhases = (
+				686D503ED78A31135D087BD94871D4CF /* Sources */,
+				C9BDFCCDFE580D48DE246E66F8252A4E /* Frameworks */,
+				91B7290D56E9A17737C125B07C958DE0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AmrConverter_Tests";
+			productName = "Pods-AmrConverter_Tests";
+			productReference = 6CF0F58F86B264066B19A08813E017F6 /* Pods_AmrConverter_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3925437A0D5EF2DFB34F54E58C22DAB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4403A81740377237091B75F438262E1F /* AmrConverter */,
+				9B860B2E22CB27C5B697A4BD70C1DEE4 /* Pods-AmrConverter_Example */,
+				D7644E521E2FA704FB4A9814DCB9B3B4 /* Pods-AmrConverter_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E54CA43AD52A7936023E5C143169177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC7133487634B277128EFF0C9A4E5A9 /* AmrConverter-dummy.m in Sources */,
+				579CA5EB6DE61E7E66C51FCCD36DE14B /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BD2912325E4D21AC557E61BD58DC31E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				604C020532117C91FF6ED71DBDA29B9E /* Pods-AmrConverter_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		686D503ED78A31135D087BD94871D4CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8A1E46A371E08829E089D64A63389D1 /* Pods-AmrConverter_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2EFCBA87A22059749822E32803FF5166 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AmrConverter;
+			target = 4403A81740377237091B75F438262E1F /* AmrConverter */;
+			targetProxy = 8CF75A1946BAAB14DB08D0B6C60273CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		172495D5E14244CA20F2E2A87201204B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F34F478C58F4C1E4A4E3703B0E70B00E /* Pods-AmrConverter_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AmrConverter_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AmrConverter_Tests/Pods-AmrConverter_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AmrConverter_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6E0262972D4B737AB8D7632F03AF796A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73834E47356D5CB245E6DD7458817A5E /* AmrConverter.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AmrConverter/AmrConverter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AmrConverter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AmrConverter/AmrConverter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AmrConverter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A310CA408755E2D9EF154BF2B212C800 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73834E47356D5CB245E6DD7458817A5E /* AmrConverter.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AmrConverter/AmrConverter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AmrConverter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AmrConverter/AmrConverter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AmrConverter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C760CEE5EA1D3679CEE015805443EA02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A100A32091DE3D62D75B14F944C89600 /* Pods-AmrConverter_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AmrConverter_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AmrConverter_Tests/Pods-AmrConverter_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AmrConverter_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D5730B1685C60AED4DEAE0CFF7310C6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A3B9E9BEE73C68933DC23C6C36FB3B4 /* Pods-AmrConverter_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AmrConverter_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AmrConverter_Example/Pods-AmrConverter_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AmrConverter_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F527D5B6CCD9BC7D56089006F57C00DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B6ED273DC98BBDC6FE093F030D3C322 /* Pods-AmrConverter_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AmrConverter_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AmrConverter_Example/Pods-AmrConverter_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AmrConverter_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15059047EEE863F08BDF2C732D09F5FB /* Build configuration list for PBXNativeTarget "Pods-AmrConverter_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5730B1685C60AED4DEAE0CFF7310C6F /* Debug */,
+				F527D5B6CCD9BC7D56089006F57C00DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A0EB1E7A6788F295D3A358309730ED1 /* Build configuration list for PBXNativeTarget "AmrConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A310CA408755E2D9EF154BF2B212C800 /* Debug */,
+				6E0262972D4B737AB8D7632F03AF796A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A976BF8B97B1169688D9A353AB3578D7 /* Build configuration list for PBXNativeTarget "Pods-AmrConverter_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				172495D5E14244CA20F2E2A87201204B /* Debug */,
+				C760CEE5EA1D3679CEE015805443EA02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

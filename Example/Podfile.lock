@@ -1,0 +1,16 @@
+PODS:
+  - AmrConverter (0.1.0)
+
+DEPENDENCIES:
+  - AmrConverter (from `../`)
+
+EXTERNAL SOURCES:
+  AmrConverter:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AmrConverter: c8271df2cfeecbf6e432615965861f4136c4ea82
+
+PODFILE CHECKSUM: 420bf5dfe3bea36f3ab397db97e2b7e93fd002a2
+
+COCOAPODS: 1.0.0
